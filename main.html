@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memo menu</title>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header flex">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 0H26.4865V6.48649H20V0Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M26.2919 0.194595H20.1946V6.29189H26.2919V0.194595ZM20 0V6.48649H26.4865V0H20Z" fill="#FDDD59" />
+                <path d="M13.5127 6.48633H19.9992V13.5134H13.5127V6.48633Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M19.8046 6.69714H13.7073V13.3025H19.8046V6.69714ZM13.5127 6.48633V13.5134H19.9992V6.48633H13.5127Z"
+                    fill="#FDDD59" />
+                <path d="M6.4873 13.5137H13.5143V20.0002H6.4873V13.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.3035 13.7083H6.69812V19.8056H13.3035V13.7083ZM6.4873 13.5137V20.0002H13.5143V13.5137H6.4873Z"
+                    fill="#FDDD59" />
+                <path d="M0 20H6.48649V26.4865H0V20Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M6.29189 20.1946H0.194595V26.2919H6.29189V20.1946ZM0 20V26.4865H6.48649V20H0Z" fill="#FDDD59" />
+                <path d="M73.5127 20H79.9992V26.4865H73.5127V20Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M79.8046 20.1946H73.7073V26.2919H79.8046V20.1946ZM73.5127 20V26.4865H79.9992V20H73.5127Z"
+                    fill="#FDDD59" />
+                <path d="M0 26.4863H6.48649V33.5134H0V26.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M6.29189 26.6971H0.194595V33.3025H6.29189V26.6971ZM0 26.4863V33.5134H6.48649V26.4863H0Z"
+                    fill="#FDDD59" />
+                <path d="M73.5127 26.4863H79.9992V33.5134H73.5127V26.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M79.8046 26.6971H73.7073V33.3025H79.8046V26.6971ZM73.5127 26.4863V33.5134H79.9992V26.4863H73.5127Z"
+                    fill="#FDDD59" />
+                <path d="M0 33.5137H6.48649V40.0002H0V33.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M6.29189 33.7083H0.194595V39.8056H6.29189V33.7083ZM0 33.5137V40.0002H6.48649V33.5137H0Z"
+                    fill="#FDDD59" />
+                <path d="M73.5127 33.5137H79.9992V40.0002H73.5127V33.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M79.8046 33.7083H73.7073V39.8056H79.8046V33.7083ZM73.5127 33.5137V40.0002H79.9992V33.5137H73.5127Z"
+                    fill="#FDDD59" />
+                <path d="M0 40H6.48649V46.4865H0V40Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M6.29189 40.1946H0.194595V46.2919H6.29189V40.1946ZM0 40V46.4865H6.48649V40H0Z" fill="#FDDD59" />
+                <path d="M73.5127 40H79.9992V46.4865H73.5127V40Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M79.8046 40.1946H73.7073V46.2919H79.8046V40.1946ZM73.5127 40V46.4865H79.9992V40H73.5127Z"
+                    fill="#FDDD59" />
+                <path d="M0 46.4863H6.48649V53.5134H0V46.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M6.29189 46.6971H0.194595V53.3025H6.29189V46.6971ZM0 46.4863V53.5134H6.48649V46.4863H0Z"
+                    fill="#FDDD59" />
+                <path d="M73.5127 46.4863H79.9992V53.5134H73.5127V46.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M79.8046 46.6971H73.7073V53.3025H79.8046V46.6971ZM73.5127 46.4863V53.5134H79.9992V46.4863H73.5127Z"
+                    fill="#FDDD59" />
+                <path d="M0 53.5137H6.48649V60.0002H0V53.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M6.29189 53.7083H0.194595V59.8056H6.29189V53.7083ZM0 53.5137V60.0002H6.48649V53.5137H0Z"
+                    fill="#FDDD59" />
+                <path d="M73.5127 53.5137H79.9992V60.0002H73.5127V53.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M79.8046 53.7083H73.7073V59.8056H79.8046V53.7083ZM73.5127 53.5137V60.0002H79.9992V53.5137H73.5127Z"
+                    fill="#FDDD59" />
+                <path d="M66.4873 60H73.5143V66.4865H66.4873V60Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M73.3035 60.1946H66.6981V66.2919H73.3035V60.1946ZM66.4873 60V66.4865H73.5143V60H66.4873Z"
+                    fill="#FDDD59" />
+                <path d="M60 66.4863H66.4865V73.5134H60V66.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M66.2919 66.6971H60.1946V73.3025H66.2919V66.6971ZM60 66.4863V73.5134H66.4865V66.4863H60Z"
+                    fill="#FDDD59" />
+                <path d="M6.4873 60H13.5143V66.4865H6.4873V60Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.3035 60.1946H6.69812V66.2919H13.3035V60.1946ZM6.4873 60V66.4865H13.5143V60H6.4873Z"
+                    fill="#FDDD59" />
+                <path d="M13.5127 66.4863H19.9992V73.5134H13.5127V66.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M19.8046 66.6971H13.7073V73.3025H19.8046V66.6971ZM13.5127 66.4863V73.5134H19.9992V66.4863H13.5127Z"
+                    fill="#FDDD59" />
+                <path d="M20 46.4863H26.4865V53.5134H20V46.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M26.2919 46.6971H20.1946V53.3025H26.2919V46.6971ZM20 46.4863V53.5134H26.4865V46.4863H20Z"
+                    fill="#FDDD59" />
+                <path d="M13.5127 46.4863H19.9992V53.5134H13.5127V46.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M19.8046 46.6971H13.7073V53.3025H19.8046V46.6971ZM13.5127 46.4863V53.5134H19.9992V46.4863H13.5127Z"
+                    fill="#FDDD59" />
+                <path d="M13.5127 26.4863H19.9992V33.5134H13.5127V26.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M19.8046 26.6971H13.7073V33.3025H19.8046V26.6971ZM13.5127 26.4863V33.5134H19.9992V26.4863H13.5127Z"
+                    fill="#FDDD59" />
+                <path d="M26.4873 26.4863H33.5143V33.5134H26.4873V26.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M33.3035 26.6971H26.6981V33.3025H33.3035V26.6971ZM26.4873 26.4863V33.5134H33.5143V26.4863H26.4873Z"
+                    fill="#FDDD59" />
+                <path d="M20 20H26.4865V26.4865H20V20Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M26.2919 20.1946H20.1946V26.2919H26.2919V20.1946ZM20 20V26.4865H26.4865V20H20Z" fill="#FDDD59" />
+                <path d="M60 26.4863H66.4865V33.5134H60V26.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M66.2919 26.6971H60.1946V33.3025H66.2919V26.6971ZM60 26.4863V33.5134H66.4865V26.4863H60Z"
+                    fill="#FDDD59" />
+                <path d="M46.4873 26.4863H53.5143V33.5134H46.4873V26.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M53.3035 26.6971H46.6981V33.3025H53.3035V26.6971ZM46.4873 26.4863V33.5134H53.5143V26.4863H46.4873Z"
+                    fill="#FDDD59" />
+                <path d="M53.5127 20H59.9992V26.4865H53.5127V20Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M59.8046 20.1946H53.7073V26.2919H59.8046V20.1946ZM53.5127 20V26.4865H59.9992V20H53.5127Z"
+                    fill="#FDDD59" />
+                <path d="M20 73.5137H26.4865V80.0002H20V73.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M26.2919 73.7083H20.1946V79.8056H26.2919V73.7083ZM20 73.5137V80.0002H26.4865V73.5137H20Z"
+                    fill="#FDDD59" />
+                <path d="M26.4873 0H33.5143V6.48649H26.4873V0Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M33.3035 0.194595H26.6981V6.29189H33.3035V0.194595ZM26.4873 0V6.48649H33.5143V0H26.4873Z"
+                    fill="#FDDD59" />
+                <path d="M26.4873 46.4863H33.5143V53.5134H26.4873V46.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M33.3035 46.6971H26.6981V53.3025H33.3035V46.6971ZM26.4873 46.4863V53.5134H33.5143V46.4863H26.4873Z"
+                    fill="#FDDD59" />
+                <path d="M26.4873 73.5137H33.5143V80.0002H26.4873V73.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M33.3035 73.7083H26.6981V79.8056H33.3035V73.7083ZM26.4873 73.5137V80.0002H33.5143V73.5137H26.4873Z"
+                    fill="#FDDD59" />
+                <path d="M33.5127 0H39.9992V6.48649H33.5127V0Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M39.8046 0.194595H33.7073V6.29189H39.8046V0.194595ZM33.5127 0V6.48649H39.9992V0H33.5127Z"
+                    fill="#FDDD59" />
+                <path d="M33.5127 60H39.9992V66.4865H33.5127V60Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M39.8046 60.1946H33.7073V66.2919H39.8046V60.1946ZM33.5127 60V66.4865H39.9992V60H33.5127Z"
+                    fill="#FDDD59" />
+                <path d="M26.4873 60H33.5143V66.4865H26.4873V60Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M33.3035 60.1946H26.6981V66.2919H33.3035V60.1946ZM26.4873 60V66.4865H33.5143V60H26.4873Z"
+                    fill="#FDDD59" />
+                <path d="M20 53.5137H26.4865V60.0002H20V53.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M26.2919 53.7083H20.1946V59.8056H26.2919V53.7083ZM20 53.5137V60.0002H26.4865V53.5137H20Z"
+                    fill="#FDDD59" />
+                <path d="M46.4873 60H53.5143V66.4865H46.4873V60Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M53.3035 60.1946H46.6981V66.2919H53.3035V60.1946ZM46.4873 60V66.4865H53.5143V60H46.4873Z"
+                    fill="#FDDD59" />
+                <path d="M53.5127 53.5137H59.9992V60.0002H53.5127V53.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M59.8046 53.7083H53.7073V59.8056H59.8046V53.7083ZM53.5127 53.5137V60.0002H59.9992V53.5137H53.5127Z"
+                    fill="#FDDD59" />
+                <path d="M33.5127 46.4863H39.9992V53.5134H33.5127V46.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M39.8046 46.6971H33.7073V53.3025H39.8046V46.6971ZM33.5127 46.4863V53.5134H39.9992V46.4863H33.5127Z"
+                    fill="#FDDD59" />
+                <path d="M33.5127 73.5137H39.9992V80.0002H33.5127V73.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M39.8046 73.7083H33.7073V79.8056H39.8046V73.7083ZM33.5127 73.5137V80.0002H39.9992V73.5137H33.5127Z"
+                    fill="#FDDD59" />
+                <path d="M40 0H46.4865V6.48649H40V0Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M46.2919 0.194595H40.1946V6.29189H46.2919V0.194595ZM40 0V6.48649H46.4865V0H40Z" fill="#FDDD59" />
+                <path d="M40 60H46.4865V66.4865H40V60Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M46.2919 60.1946H40.1946V66.2919H46.2919V60.1946ZM40 60V66.4865H46.4865V60H40Z" fill="#FDDD59" />
+                <path d="M40 46.4863H46.4865V53.5134H40V46.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M46.2919 46.6971H40.1946V53.3025H46.2919V46.6971ZM40 46.4863V53.5134H46.4865V46.4863H40Z"
+                    fill="#FDDD59" />
+                <path d="M40 73.5137H46.4865V80.0002H40V73.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M46.2919 73.7083H40.1946V79.8056H46.2919V73.7083ZM40 73.5137V80.0002H46.4865V73.5137H40Z"
+                    fill="#FDDD59" />
+                <path d="M46.4873 0H53.5143V6.48649H46.4873V0Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M53.3035 0.194595H46.6981V6.29189H53.3035V0.194595ZM46.4873 0V6.48649H53.5143V0H46.4873Z"
+                    fill="#FDDD59" />
+                <path d="M46.4873 46.4863H53.5143V53.5134H46.4873V46.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M53.3035 46.6971H46.6981V53.3025H53.3035V46.6971ZM46.4873 46.4863V53.5134H53.5143V46.4863H46.4873Z"
+                    fill="#FDDD59" />
+                <path d="M46.4873 73.5137H53.5143V80.0002H46.4873V73.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M53.3035 73.7083H46.6981V79.8056H53.3035V73.7083ZM46.4873 73.5137V80.0002H53.5143V73.5137H46.4873Z"
+                    fill="#FDDD59" />
+                <path d="M53.5127 0H59.9992V6.48649H53.5127V0Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M59.8046 0.194595H53.7073V6.29189H59.8046V0.194595ZM53.5127 0V6.48649H59.9992V0H53.5127Z"
+                    fill="#FDDD59" />
+                <path d="M60 6.48633H66.4865V13.5134H60V6.48633Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M66.2919 6.69714H60.1946V13.3025H66.2919V6.69714ZM60 6.48633V13.5134H66.4865V6.48633H60Z"
+                    fill="#FDDD59" />
+                <path d="M66.4873 13.5137H73.5143V20.0002H66.4873V13.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M73.3035 13.7083H66.6981V19.8056H73.3035V13.7083ZM66.4873 13.5137V20.0002H73.5143V13.5137H66.4873Z"
+                    fill="#FDDD59" />
+                <path d="M53.5127 46.4863H59.9992V53.5134H53.5127V46.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M59.8046 46.6971H53.7073V53.3025H59.8046V46.6971ZM53.5127 46.4863V53.5134H59.9992V46.4863H53.5127Z"
+                    fill="#FDDD59" />
+                <path d="M60 46.4863H66.4865V53.5134H60V46.4863Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M66.2919 46.6971H60.1946V53.3025H66.2919V46.6971ZM60 46.4863V53.5134H66.4865V46.4863H60Z"
+                    fill="#FDDD59" />
+                <path d="M53.5127 73.5137H59.9992V80.0002H53.5127V73.5137Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M59.8046 73.7083H53.7073V79.8056H59.8046V73.7083ZM53.5127 73.5137V80.0002H59.9992V73.5137H53.5127Z"
+                    fill="#FDDD59" />
+            </svg>
+            <h1 class="header__title">Мемо</h1>
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.9375 7.96875H24.0625V15.9375H15.9375V7.96875Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M23.8187 8.20781H16.1813V15.6984H23.8187V8.20781ZM15.9375 7.96875V15.9375H24.0625V7.96875H15.9375Z"
+                    fill="#FDDD59" />
+                <path d="M0 40H7.96875V47.9688H0V40Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.72969 40.2391H0.239063V47.7297H7.72969V40.2391ZM0 40V47.9688H7.96875V40H0Z" fill="#FDDD59" />
+                <path d="M72.0312 40H80V47.9688H72.0312V40Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M79.7609 40.2391H72.2703V47.7297H79.7609V40.2391ZM72.0312 40V47.9688H80V40H72.0312Z"
+                    fill="#FDDD59" />
+                <path d="M24.0625 0H32.0312V7.96875H24.0625V0Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M31.7922 0.239063H24.3016V7.72969H31.7922V0.239063ZM24.0625 0V7.96875H32.0312V0H24.0625Z"
+                    fill="#FDDD59" />
+                <path d="M32.0312 0H40V7.96875H32.0312V0Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M39.7609 0.239063H32.2703V7.72969H39.7609V0.239063ZM32.0312 0V7.96875H40V0H32.0312Z"
+                    fill="#FDDD59" />
+                <path d="M40 0H47.9688V7.96875H40V0Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M47.7297 0.239063H40.2391V7.72969H47.7297V0.239063ZM40 0V7.96875H47.9688V0H40Z" fill="#FDDD59" />
+                <path d="M47.9688 0H55.9375V7.96875H47.9688V0Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M55.6984 0.239063H48.2078V7.72969H55.6984V0.239063ZM47.9688 0V7.96875H55.9375V0H47.9688Z"
+                    fill="#FDDD59" />
+                <path d="M55.9375 7.96875H64.0625V15.9375H55.9375V7.96875Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M63.8187 8.20781H56.1813V15.6984H63.8187V8.20781ZM55.9375 7.96875V15.9375H64.0625V7.96875H55.9375Z"
+                    fill="#FDDD59" />
+                <path d="M64.0625 15.9375H72.0312V24.0625H64.0625V15.9375Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M71.7922 16.1813H64.3016V23.8187H71.7922V16.1813ZM64.0625 15.9375V24.0625H72.0312V15.9375H64.0625Z"
+                    fill="#FDDD59" />
+                <path d="M64.0625 24.0625H72.0312V32.0312H64.0625V24.0625Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M71.7922 24.3016H64.3016V31.7922H71.7922V24.3016ZM64.0625 24.0625V32.0312H72.0312V24.0625H64.0625Z"
+                    fill="#FDDD59" />
+                <path d="M64.0625 32.0312H72.0312V40H64.0625V32.0312Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M71.7922 32.2703H64.3016V39.7609H71.7922V32.2703ZM64.0625 32.0312V40H72.0312V32.0312H64.0625Z"
+                    fill="#FDDD59" />
+                <path d="M7.96875 72.0312H15.9375V80H7.96875V72.0312Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M15.6984 72.2703H8.20781V79.7609H15.6984V72.2703ZM7.96875 72.0312V80H15.9375V72.0312H7.96875Z"
+                    fill="#FDDD59" />
+                <path d="M15.9375 64.0625H24.0625V72.0312H15.9375V64.0625Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M23.8187 64.3016H16.1813V71.7922H23.8187V64.3016ZM15.9375 64.0625V72.0312H24.0625V64.0625H15.9375Z"
+                    fill="#FDDD59" />
+                <path d="M24.0625 64.0625H32.0312V72.0312H24.0625V64.0625Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M31.7922 64.3016H24.3016V71.7922H31.7922V64.3016ZM24.0625 64.0625V72.0312H32.0312V64.0625H24.0625Z"
+                    fill="#FDDD59" />
+                <path d="M32.0312 72.0312H40V80H32.0312V72.0312Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M39.7609 72.2703H32.2703V79.7609H39.7609V72.2703ZM32.0312 72.0312V80H40V72.0312H32.0312Z"
+                    fill="#FDDD59" />
+                <path d="M40 72.0312H47.9688V80H40V72.0312Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M47.7297 72.2703H40.2391V79.7609H47.7297V72.2703ZM40 72.0312V80H47.9688V72.0312H40Z"
+                    fill="#FDDD59" />
+                <path d="M47.9688 64.0625H55.9375V72.0312H47.9688V64.0625Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M55.6984 64.3016H48.2078V71.7922H55.6984V64.3016ZM47.9688 64.0625V72.0312H55.9375V64.0625H47.9688Z"
+                    fill="#FDDD59" />
+                <path d="M55.9375 64.0625H64.0625V72.0312H55.9375V64.0625Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M63.8187 64.3016H56.1813V71.7922H63.8187V64.3016ZM55.9375 64.0625V72.0312H64.0625V64.0625H55.9375Z"
+                    fill="#FDDD59" />
+                <path d="M64.0625 72.0312H72.0312V80H64.0625V72.0312Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M71.7922 72.2703H64.3016V79.7609H71.7922V72.2703ZM64.0625 72.0312V80H72.0312V72.0312H64.0625Z"
+                    fill="#FDDD59" />
+                <path d="M7.96875 15.9375H15.9375V24.0625H7.96875V15.9375Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M15.6984 16.1813H8.20781V23.8187H15.6984V16.1813ZM7.96875 15.9375V24.0625H15.9375V15.9375H7.96875Z"
+                    fill="#FDDD59" />
+                <path d="M7.96875 24.0625H15.9375V32.0312H7.96875V24.0625Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M15.6984 24.3016H8.20781V31.7922H15.6984V24.3016ZM7.96875 24.0625V32.0312H15.9375V24.0625H7.96875Z"
+                    fill="#FDDD59" />
+                <path d="M0 47.9688H7.96875V55.9375H0V47.9688Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.72969 48.2078H0.239063V55.6984H7.72969V48.2078ZM0 47.9688V55.9375H7.96875V47.9688H0Z"
+                    fill="#FDDD59" />
+                <path d="M0 64.0625H7.96875V72.0312H0V64.0625Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.72969 64.3016H0.239063V71.7922H7.72969V64.3016ZM0 64.0625V72.0312H7.96875V64.0625H0Z"
+                    fill="#FDDD59" />
+                <path d="M72.0312 47.9688H80V55.9375H72.0312V47.9688Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M79.7609 48.2078H72.2703V55.6984H79.7609V48.2078ZM72.0312 47.9688V55.9375H80V47.9688H72.0312Z"
+                    fill="#FDDD59" />
+                <path d="M72.0312 64.0625H80V72.0312H72.0312V64.0625Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M79.7609 64.3016H72.2703V71.7922H79.7609V64.3016ZM72.0312 64.0625V72.0312H80V64.0625H72.0312Z"
+                    fill="#FDDD59" />
+                <path d="M7.96875 32.0312H15.9375V40H7.96875V32.0312Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M15.6984 32.2703H8.20781V39.7609H15.6984V32.2703ZM7.96875 32.0312V40H15.9375V32.0312H7.96875Z"
+                    fill="#FDDD59" />
+                <path d="M0 55.9375H7.96875V64.0625H0V55.9375Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M7.72969 56.1813H0.239063V63.8187H7.72969V56.1813ZM0 55.9375V64.0625H7.96875V55.9375H0Z"
+                    fill="#FDDD59" />
+                <path d="M72.0312 55.9375H80V64.0625H72.0312V55.9375Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M79.7609 56.1813H72.2703V63.8187H79.7609V56.1813ZM72.0312 55.9375V64.0625H80V55.9375H72.0312Z"
+                    fill="#FDDD59" />
+                <path d="M47.9688 24.0625H55.9375V32.0312H47.9688V24.0625Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M55.6984 24.3016H48.2078V31.7922H55.6984V24.3016ZM47.9688 24.0625V32.0312H55.9375V24.0625H47.9688Z"
+                    fill="#FDDD59" />
+                <path d="M24.0625 24.0625H32.0312V32.0312H24.0625V24.0625Z" fill="#FDDD59" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M31.7922 24.3016H24.3016V31.7922H31.7922V24.3016ZM24.0625 24.0625V32.0312H32.0312V24.0625H24.0625Z"
+                    fill="#FDDD59" />
+            </svg>
+        </div>
+        <div class="header__rules header__rules_1">Dar la vuelta a las cartas</div>
+        <div class="header__rules header__rules_2">Busca las parejas.</div>
+        <form action="game.html">
+        <div class="main__choice flex">
+            <div class="choice choice__cards flex">
+                <div class="choice__header">Tarjetas en vertical</div>
+                <div class="choice__field">
+                    <svg width="200" height="72" viewBox="0 0 200 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="16" y1="4" x2="185" y2="4" stroke="#00D7D6" stroke-width="8" />
+                        <line x1="4" y1="56" x2="4" y2="16" stroke="#00D7D6" stroke-width="8" />
+                        <line x1="196" y1="56" x2="196" y2="16" stroke="#00D7D6" stroke-width="8" />
+                        <line x1="16" y1="68" x2="185" y2="68" stroke="#00D7D6" stroke-width="8" />
+                        <rect x="8" y="8" width="8" height="8" fill="#00D7D6" />
+                        <rect x="8" y="56" width="8" height="8" fill="#00D7D6" />
+                        <rect x="184" y="8" width="8" height="8" fill="#00D7D6" />
+                        <rect x="184" y="56" width="8" height="8" fill="#00D7D6" />
+                    </svg>
+                    <input id = "cards" class="choice__input choice__input_cards" type="text">
+                </div>
+            </div>
+            <div class="choice choice__time flex">
+                <div class="choice__header">Límite en segundos</div>
+                <div class="choice__field">
+                    <svg width="200" height="72" viewBox="0 0 200 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="16" y1="4" x2="185" y2="4" stroke="#00D7D6" stroke-width="8" />
+                        <line x1="4" y1="56" x2="4" y2="16" stroke="#00D7D6" stroke-width="8" />
+                        <line x1="196" y1="56" x2="196" y2="16" stroke="#00D7D6" stroke-width="8" />
+                        <line x1="16" y1="68" x2="185" y2="68" stroke="#00D7D6" stroke-width="8" />
+                        <rect x="8" y="8" width="8" height="8" fill="#00D7D6" />
+                        <rect x="8" y="56" width="8" height="8" fill="#00D7D6" />
+                        <rect x="184" y="8" width="8" height="8" fill="#00D7D6" />
+                        <rect x="184" y="56" width="8" height="8" fill="#00D7D6" />
+                    </svg>
+                    <input id = "time" class="choice__input choice__input_time" type="text">
+                </div>
+            </div>
+        </div>
+        <button class="btn__wrapper btn-reset start__btn flex">
+            <a href="game.html">
+                <svg class="svg-btn" width="370" height="72" viewBox="0 0 370 72" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" >
+                    <line x1="16" y1="4" x2="354" y2="4" stroke="#FDDD59" stroke-width="8" />
+                    <line x1="16" y1="68" x2="354" y2="68" stroke="#FDDD59" stroke-width="8" />
+                    <line x1="4" y1="56" x2="4" y2="16" stroke="#FDDD59" stroke-width="8" />
+                    <line x1="366" y1="56" x2="366" y2="16" stroke="#FDDD59" stroke-width="8" />
+                    <rect x="8" y="8" width="8" height="8" fill="#FDDD59" />
+                    <rect x="8" y="56" width="8" height="8" fill="#FDDD59" />
+                    <rect x="354" y="8" width="8" height="8" fill="#FDDD59" />
+                    <rect x="354" y="56" width="8" height="8" fill="#FDDD59" />
+                    <rect x="16" y="8" width="338" height="56" fill="#FDDD59" fill-opacity="0.01" />
+                    <rect x="8" y="16" width="15" height="40" fill="#FDDD59" fill-opacity="0.01" />
+                    <rect x="347" y="16" width="15" height="40" fill="#FDDD59" fill-opacity="0.01" />
+                    <path>
+                </svg>
+            </a>
+            <input class="choice__submit" type="submit">
+        </button>
+    </form>
+    </div>
+
+</body>
+
+</html>
